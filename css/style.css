@@ -11,3 +11,9 @@ header h1,
 header nav {
     display: inline-block;
 }
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
